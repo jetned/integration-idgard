@@ -1,0 +1,354 @@
+2025-05-30T15:30:08 [INFO] Attempt #1 of 3...
+2025-05-30T15:30:08 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:9 char:31
++     [string] $Username       = DKBEY002",
++                               ~
+Missing expression after '='.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:9 char:23
++     [string] $Username       = DKBEY002",
++                       ~
+Missing ')' in function parameter list.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:65
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                            ~~~~~
+Unexpected token 'bytes' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:64
++ …   Write-Log "---- Processing file: $fileName ($($file.Length) bytes)  …
++                                                                ~
+Missing closing ')' in expression.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:70
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                                 ~
+Unexpected token ')' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:76 char:29
++         $tokenUriB.Path  = "webapp/rest/boxes/$BoxId/$ParentNodeId"
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'webapp/rest/boxes/$BoxId/$ParentNodeId"
+        $tokenUriB.Query = 'cmd=up&param=nopt&opt=nopt'
+
+        $tokenResp = Invoke-RestMethod -Method POST -Uri $tokenUriB.Uri.AbsoluteUri `
+                        -Headers @{ 'Content-Type' = 'application/json'; Accept = 'application/json' } `
+                        -Body '{}' -WebSession $session
+
+        $uploadToken = $tokenResp.data
+        if (-not $uploadToken) { throw 'No uploadToken received.' }
+        Write-Log "Upload' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:120 char:30
++ Write-Log "=== SCRIPT END ===" 'INFO'
++                              ~~~~~~~~
+The string is missing the terminator: ".
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:74
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                                     ~~~
+The '--' operator works only on variables or on properties.
+
+Not all parse errors were reported.  Correct the reported errors and try again.
+2025-05-30T15:30:08 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:30:08 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:30:18 [INFO] Attempt #2 of 3...
+2025-05-30T15:30:18 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:9 char:31
++     [string] $Username       = DKBEY002",
++                               ~
+Missing expression after '='.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:9 char:23
++     [string] $Username       = DKBEY002",
++                       ~
+Missing ')' in function parameter list.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:65
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                            ~~~~~
+Unexpected token 'bytes' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:64
++ …   Write-Log "---- Processing file: $fileName ($($file.Length) bytes)  …
++                                                                ~
+Missing closing ')' in expression.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:70
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                                 ~
+Unexpected token ')' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:76 char:29
++         $tokenUriB.Path  = "webapp/rest/boxes/$BoxId/$ParentNodeId"
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'webapp/rest/boxes/$BoxId/$ParentNodeId"
+        $tokenUriB.Query = 'cmd=up&param=nopt&opt=nopt'
+
+        $tokenResp = Invoke-RestMethod -Method POST -Uri $tokenUriB.Uri.AbsoluteUri `
+                        -Headers @{ 'Content-Type' = 'application/json'; Accept = 'application/json' } `
+                        -Body '{}' -WebSession $session
+
+        $uploadToken = $tokenResp.data
+        if (-not $uploadToken) { throw 'No uploadToken received.' }
+        Write-Log "Upload' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:120 char:30
++ Write-Log "=== SCRIPT END ===" 'INFO'
++                              ~~~~~~~~
+The string is missing the terminator: ".
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:74
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                                     ~~~
+The '--' operator works only on variables or on properties.
+
+Not all parse errors were reported.  Correct the reported errors and try again.
+2025-05-30T15:30:18 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:30:18 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:30:28 [INFO] Attempt #3 of 3...
+2025-05-30T15:30:28 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:9 char:31
++     [string] $Username       = DKBEY002",
++                               ~
+Missing expression after '='.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:9 char:23
++     [string] $Username       = DKBEY002",
++                       ~
+Missing ')' in function parameter list.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:65
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                            ~~~~~
+Unexpected token 'bytes' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:64
++ …   Write-Log "---- Processing file: $fileName ($($file.Length) bytes)  …
++                                                                ~
+Missing closing ')' in expression.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:70
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                                 ~
+Unexpected token ')' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:76 char:29
++         $tokenUriB.Path  = "webapp/rest/boxes/$BoxId/$ParentNodeId"
++                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Unexpected token 'webapp/rest/boxes/$BoxId/$ParentNodeId"
+        $tokenUriB.Query = 'cmd=up&param=nopt&opt=nopt'
+
+        $tokenResp = Invoke-RestMethod -Method POST -Uri $tokenUriB.Uri.AbsoluteUri `
+                        -Headers @{ 'Content-Type' = 'application/json'; Accept = 'application/json' } `
+                        -Body '{}' -WebSession $session
+
+        $uploadToken = $tokenResp.data
+        if (-not $uploadToken) { throw 'No uploadToken received.' }
+        Write-Log "Upload' in expression or statement.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:120 char:30
++ Write-Log "=== SCRIPT END ===" 'INFO'
++                              ~~~~~~~~
+The string is missing the terminator: ".
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:71 char:74
++ … te-Log "---- Processing file: $fileName ($($file.Length) bytes) ----"
++                                                                     ~~~
+The '--' operator works only on variables or on properties.
+
+Not all parse errors were reported.  Correct the reported errors and try again.
+2025-05-30T15:30:29 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:30:29 [ERROR] All 3 attempts failed. Exiting with code 1.
+2025-05-30T15:31:12 [INFO] Attempt #1 of 3...
+2025-05-30T15:31:13 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:31:13 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:31:13 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:31:23 [INFO] Attempt #2 of 3...
+2025-05-30T15:31:23 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:31:23 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:31:23 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:31:33 [INFO] Attempt #3 of 3...
+2025-05-30T15:31:33 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:31:33 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:31:33 [ERROR] All 3 attempts failed. Exiting with code 1.
+2025-05-30T15:32:53 [INFO] Attempt #1 of 3...
+2025-05-30T15:32:53 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:32:53 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:32:53 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:33:03 [INFO] Attempt #2 of 3...
+2025-05-30T15:33:03 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:33:03 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:33:03 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:33:13 [INFO] Attempt #3 of 3...
+2025-05-30T15:33:13 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:33:13 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:33:13 [ERROR] All 3 attempts failed. Exiting with code 1.
+2025-05-30T15:33:59 [INFO] Attempt #1 of 3...
+2025-05-30T15:33:59 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:33:59 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:33:59 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:34:09 [INFO] Attempt #2 of 3...
+2025-05-30T15:34:09 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:34:09 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:34:09 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:34:19 [INFO] Attempt #3 of 3...
+2025-05-30T15:34:19 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:34:19 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:34:20 [ERROR] All 3 attempts failed. Exiting with code 1.
+2025-05-30T15:34:27 [INFO] Attempt #1 of 3...
+2025-05-30T15:34:28 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:34:28 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:34:28 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:34:38 [INFO] Attempt #2 of 3...
+2025-05-30T15:34:38 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:34:38 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:34:38 [INFO] Waiting 10 seconds before next attempt...
+2025-05-30T15:34:48 [INFO] Attempt #3 of 3...
+2025-05-30T15:34:48 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:88 char:44
++         Write-Log "Failed to get token for $fileName: $_" 'ERROR'
++                                            ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+
+At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Inputfolder\Upload-Idgard.ps1:115 char:36
++         Write-Log "Error uploading $fileName: $_" 'ERROR'
++                                    ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-05-30T15:34:48 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-05-30T15:34:48 [ERROR] All 3 attempts failed. Exiting with code 1.
+2025-05-30T15:38:36 [INFO] Attempt #1 of 3...
+{"level":"INFO","timestamp":"2025-05-30T15:38:37","message":"Starting login for user 'DKBEY002'..."}
+{"level":"ERROR","timestamp":"2025-05-30T15:38:38","message":"Login failed: No sessionId in login response."}
+2025-05-30T15:38:38 [ERROR] Fatal error: credential/login failure in main script (code 2). Aborting.
+2025-05-30T15:39:03 [INFO] Attempt #1 of 3...
+{"level":"INFO","timestamp":"2025-05-30T15:39:03","message":"Starting login for user 'DKBEY002'..."}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"Login succeeded. Session-ID: 1mqm4jr0iyie14s2580t4uh5k2006"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"---- Processing file: fdbgfdgb - Kopie (2).txt (0 bytes) ----"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"Upload token: 0813f30d-0e3e-4720-afed-a1ce0a542b66"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"Upload succeeded: fdbgfdgb - Kopie (2).txt"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"Moved fdbgfdgb - Kopie (2).txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"---- Processing file: fdbgfdgb - Kopie.txt (0 bytes) ----"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:04","message":"Upload token: 59238645-4abe-4ed1-ba24-17cbdba2c12e"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:05","message":"Upload succeeded: fdbgfdgb - Kopie.txt"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:05","message":"Moved fdbgfdgb - Kopie.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:05","message":"---- Processing file: fdbgfdgb.txt (0 bytes) ----"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:05","message":"Upload token: 085f06ac-2df1-4bb9-8cf0-4b6f1b0ae866"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:05","message":"Upload succeeded: fdbgfdgb.txt"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:05","message":"Moved fdbgfdgb.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"level":"INFO","timestamp":"2025-05-30T15:39:06","message":"=== SCRIPT END ==="}
+2025-05-30T15:39:06 [INFO] Success on attempt #1

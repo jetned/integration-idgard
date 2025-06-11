@@ -1,0 +1,284 @@
+2025-06-03T09:33:09 [INFO] Attempt #1 of 3...
+2025-06-03T09:33:09 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Export-Clixml\Upload-Idgard.ps1:41 char:48
++     Write-Log "Failed to load credentials from $credPath: $_" 'ERROR'
++                                                ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-06-03T09:33:09 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-06-03T09:33:09 [INFO] Waiting 10 seconds before next attempt...
+2025-06-03T09:33:19 [INFO] Attempt #2 of 3...
+2025-06-03T09:33:19 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Export-Clixml\Upload-Idgard.ps1:41 char:48
++     Write-Log "Failed to load credentials from $credPath: $_" 'ERROR'
++                                                ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-06-03T09:33:19 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-06-03T09:33:19 [INFO] Waiting 10 seconds before next attempt...
+2025-06-03T09:33:29 [INFO] Attempt #3 of 3...
+2025-06-03T09:33:29 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Export-Clixml\Upload-Idgard.ps1:41 char:48
++     Write-Log "Failed to load credentials from $credPath: $_" 'ERROR'
++                                                ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-06-03T09:33:29 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-06-03T09:33:29 [ERROR] All 3 attempts failed. Exiting with code 1.
+2025-06-03T09:41:51 [INFO] Attempt #1 of 3...
+2025-06-03T09:41:51 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Export-Clixml\Upload-Idgard.ps1:41 char:48
++     Write-Log "Failed to load credentials from $credPath: $_" 'ERROR'
++                                                ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-06-03T09:41:51 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-06-03T09:41:51 [INFO] Waiting 10 seconds before next attempt...
+2025-06-03T09:42:01 [INFO] Attempt #2 of 3...
+2025-06-03T09:42:01 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Export-Clixml\Upload-Idgard.ps1:41 char:48
++     Write-Log "Failed to load credentials from $credPath: $_" 'ERROR'
++                                                ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-06-03T09:42:01 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-06-03T09:42:01 [INFO] Waiting 10 seconds before next attempt...
+2025-06-03T09:42:11 [INFO] Attempt #3 of 3...
+2025-06-03T09:42:11 [ERROR] Exception running main script: At C:\Users\OliverDetjen\OneDrive - Uniscon GmbH\Rentenbank\Version Export-Clixml\Upload-Idgard.ps1:41 char:48
++     Write-Log "Failed to load credentials from $credPath: $_" 'ERROR'
++                                                ~~~~~~~~~~
+Variable reference is not valid. ':' was not followed by a valid variable name character. Consider using ${} to delimit the name.
+2025-06-03T09:42:11 [WARN] Transient or unknown error (code 1). Will retry if attempts remain.
+2025-06-03T09:42:11 [ERROR] All 3 attempts failed. Exiting with code 1.
+{"message":"Retrieved credential for user 'DKBEY002'.","level":"INFO","timestamp":"2025-06-03T09:45:28"}
+{"message":"Input folder not found: ","level":"ERROR","timestamp":"2025-06-03T09:45:28"}
+2025-06-03T09:45:44 [INFO] Attempt #1 of 3...
+{"message":"Retrieved credential for user 'DKBEY002'.","level":"INFO","timestamp":"2025-06-03T09:45:44"}
+{"message":"No files found in C:\\Users\\OliverDetjen\\Downloads\\Uploads, nothing to do.","level":"INFO","timestamp":"2025-06-03T09:45:44"}
+2025-06-03T09:45:44 [INFO] Success on attempt #1
+2025-06-03T09:46:25 [INFO] Attempt #1 of 3...
+{"message":"Retrieved credential for user 'DKBEY002'.","level":"INFO","timestamp":"2025-06-03T09:46:25"}
+{"message":"No files found in C:\\Users\\OliverDetjen\\Downloads\\Uploads, nothing to do.","level":"INFO","timestamp":"2025-06-03T09:46:25"}
+2025-06-03T09:46:25 [INFO] Success on attempt #1
+2025-06-03T09:46:36 [INFO] Attempt #1 of 3...
+{"message":"Retrieved credential for user 'DKBEY002'.","level":"INFO","timestamp":"2025-06-03T09:46:36"}
+{"message":"No files found in C:\\Users\\OliverDetjen\\Downloads\\Uploads, nothing to do.","level":"INFO","timestamp":"2025-06-03T09:46:36"}
+2025-06-03T09:46:36 [INFO] Success on attempt #1
+2025-06-03T09:47:46 [INFO] Attempt #1 of 3...
+{"message":"Retrieved credential for user 'DKBEY002'.","level":"INFO","timestamp":"2025-06-03T09:47:46"}
+{"message":"Starting login for user 'DKBEY002'...","level":"INFO","timestamp":"2025-06-03T09:47:46"}
+{"message":"Login succeeded. Session-ID: 3omgewm14rtq1vl39qd9rcall3149","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"---- Processing file: test1 - Kopie (2).txt (13 bytes) ----","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Upload token: c79e2513-cb01-4f37-b37c-4fa9f75dcb89","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Upload succeeded: test1 - Kopie (2).txt","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Moved test1 - Kopie (2).txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"---- Processing file: test1 - Kopie (3).txt (13 bytes) ----","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Upload token: ba79db31-6393-44fb-9dfe-6ed915f41dab","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Upload succeeded: test1 - Kopie (3).txt","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Moved test1 - Kopie (3).txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"---- Processing file: test1 - Kopie.txt (13 bytes) ----","level":"INFO","timestamp":"2025-06-03T09:47:47"}
+{"message":"Upload token: 2074c61b-cc32-40b2-a556-a1b4b8ab2461","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"Upload succeeded: test1 - Kopie.txt","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"Moved test1 - Kopie.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"---- Processing file: test1.txt (13 bytes) ----","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"Upload token: 537c791b-f423-430a-8d41-c53434f6032f","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"Upload succeeded: test1.txt","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"Moved test1.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+{"message":"=== SCRIPT END ===","level":"INFO","timestamp":"2025-06-03T09:47:48"}
+2025-06-03T09:47:48 [INFO] Success on attempt #1
+2025-06-06T12:23:32 [INFO] Attempt #1 of 3...
+{"timestamp":"2025-06-06T12:23:32","level":"INFO","message":"Retrieved credential for user 'DKBEY002'."}
+{"timestamp":"2025-06-06T12:23:32","level":"INFO","message":"Starting login for user 'DKBEY002'..."}
+{"timestamp":"2025-06-06T12:23:33","level":"INFO","message":"Login succeeded. Session-ID: 172lw1rjdhmozsye96rgpjii45283"}
+{"timestamp":"2025-06-06T12:23:33","level":"INFO","message":"---- Processing file: testfile_01.txt (73728 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:33","level":"INFO","message":"Upload token: 63f8f0b6-425d-42ba-923a-1f405039de21"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"Upload succeeded: testfile_01.txt"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"Moved testfile_01.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"---- Processing file: testfile_02.csv (201728 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"Upload token: ad864e1d-4c9f-4ad2-8c04-f1d7c802fa40"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"Upload succeeded: testfile_02.csv"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"Moved testfile_02.csv → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"---- Processing file: testfile_03.json (182272 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:34","level":"INFO","message":"Upload token: ecd1a3c5-8785-498b-901f-1769ce171ecf"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Upload succeeded: testfile_03.json"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Moved testfile_03.json → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"---- Processing file: testfile_04.xml (268288 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Upload token: 5229d626-77e8-483f-bb99-8c4283479189"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Upload succeeded: testfile_04.xml"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Moved testfile_04.xml → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"---- Processing file: testfile_05.log (73728 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Upload token: b742b38f-c37c-4935-998b-9d583e154e27"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Upload succeeded: testfile_05.log"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"Moved testfile_05.log → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:35","level":"INFO","message":"---- Processing file: testfile_06.html (313344 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:36","level":"INFO","message":"Upload token: 2df6009b-9c6b-4ef2-b47e-149e10298b93"}
+{"timestamp":"2025-06-06T12:23:36","level":"INFO","message":"Upload succeeded: testfile_06.html"}
+{"timestamp":"2025-06-06T12:23:36","level":"INFO","message":"Moved testfile_06.html → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:36","level":"INFO","message":"---- Processing file: testfile_07.md (237568 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:36","level":"INFO","message":"Upload token: 26e5a9d7-3ec5-4914-87e3-16cec9907b0c"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"Upload succeeded: testfile_07.md"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"Moved testfile_07.md → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"---- Processing file: testfile_08.pdf (496640 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"Upload token: 68f1b7f9-bd72-47bf-a713-8d7bfc4890c4"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"Upload succeeded: testfile_08.pdf"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"Moved testfile_08.pdf → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"---- Processing file: testfile_09.docx (39936 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:37","level":"INFO","message":"Upload token: eae23474-91ad-482d-9f84-1d51386b6da5"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Upload succeeded: testfile_09.docx"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Moved testfile_09.docx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"---- Processing file: testfile_10.xlsx (62464 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Upload token: bc8b834b-523f-429e-b2bf-1bbbdb5ae79b"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Upload succeeded: testfile_10.xlsx"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Moved testfile_10.xlsx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"---- Processing file: testfile_11.pptx (198656 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Upload token: 267ac9a4-9030-4bb1-9275-92aaa0f6dafa"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Upload succeeded: testfile_11.pptx"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Moved testfile_11.pptx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"---- Processing file: testfile_12.jpg (333824 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:38","level":"INFO","message":"Upload token: 13a7bf6d-88b1-405a-b6ca-e2a6df70acca"}
+{"timestamp":"2025-06-06T12:23:39","level":"INFO","message":"Upload succeeded: testfile_12.jpg"}
+{"timestamp":"2025-06-06T12:23:39","level":"INFO","message":"Moved testfile_12.jpg → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:39","level":"INFO","message":"---- Processing file: testfile_13.png (330752 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:39","level":"INFO","message":"Upload token: 3720c47d-ae47-49ef-b9ed-caf6e6334fbe"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Upload succeeded: testfile_13.png"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Moved testfile_13.png → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"---- Processing file: testfile_14.gif (45056 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Upload token: 1bea92ec-f624-4ddb-b92b-a05beba0c8c7"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Upload succeeded: testfile_14.gif"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Moved testfile_14.gif → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"---- Processing file: testfile_15.bmp (243712 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Upload token: f2192d6f-76a2-4df3-bcca-f5111d25f3ad"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Upload succeeded: testfile_15.bmp"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"Moved testfile_15.bmp → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:40","level":"INFO","message":"---- Processing file: testfile_16.zip (17408 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:41","level":"INFO","message":"Upload token: 2199aa5b-127b-432f-bce6-35ad1780825c"}
+{"timestamp":"2025-06-06T12:23:41","level":"INFO","message":"Upload succeeded: testfile_16.zip"}
+{"timestamp":"2025-06-06T12:23:41","level":"INFO","message":"Moved testfile_16.zip → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:41","level":"INFO","message":"---- Processing file: testfile_17.tar (508928 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:41","level":"INFO","message":"Upload token: bc1389fe-5498-43a8-870c-1d57bcc26967"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Upload succeeded: testfile_17.tar"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Moved testfile_17.tar → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"---- Processing file: testfile_18.mp3 (51200 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Upload token: 0de202ad-1e86-48ad-8d77-027a4eaa8ddf"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Upload succeeded: testfile_18.mp3"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Moved testfile_18.mp3 → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"---- Processing file: testfile_19.mp4 (57344 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Upload token: eee69f1a-e57c-4859-910f-ef386e1e2d83"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Upload succeeded: testfile_19.mp4"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"Moved testfile_19.mp4 → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:42","level":"INFO","message":"---- Processing file: testfile_20.avi (496640 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:43","level":"INFO","message":"Upload token: 3e22ddeb-1d67-4063-9466-6e388450bd39"}
+{"timestamp":"2025-06-06T12:23:43","level":"INFO","message":"Upload succeeded: testfile_20.avi"}
+{"timestamp":"2025-06-06T12:23:43","level":"INFO","message":"Moved testfile_20.avi → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:43","level":"INFO","message":"---- Processing file: testfile_21.txt (64512 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:43","level":"INFO","message":"Upload token: 63a98ead-f34a-41e1-aedd-009ee204c930"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"Upload succeeded: testfile_21.txt"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"Moved testfile_21.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"---- Processing file: testfile_22.csv (424960 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"Upload token: cfece761-37c5-439a-bd95-cbc657c0a70e"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"Upload succeeded: testfile_22.csv"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"Moved testfile_22.csv → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"---- Processing file: testfile_23.json (420864 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:44","level":"INFO","message":"Upload token: 789bdf2f-d17b-4758-917d-34c95065c402"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"Upload succeeded: testfile_23.json"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"Moved testfile_23.json → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"---- Processing file: testfile_24.xml (461824 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"Upload token: c6529379-3695-4ffd-9d15-0567de76251c"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"Upload succeeded: testfile_24.xml"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"Moved testfile_24.xml → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"---- Processing file: testfile_25.log (210944 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:45","level":"INFO","message":"Upload token: 091d127f-23c5-4eec-b6bd-bc6cc10a0ffd"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"Upload succeeded: testfile_25.log"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"Moved testfile_25.log → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"---- Processing file: testfile_26.html (36864 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"Upload token: 477f0ded-6a99-4119-9859-76e8b311ca2c"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"Upload succeeded: testfile_26.html"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"Moved testfile_26.html → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"---- Processing file: testfile_27.md (178176 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:46","level":"INFO","message":"Upload token: 15dadd90-0937-4c71-8210-a3258473c13d"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"Upload succeeded: testfile_27.md"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"Moved testfile_27.md → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"---- Processing file: testfile_28.pdf (257024 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"Upload token: 3e13004a-454d-4075-8d16-c072087f01a5"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"Upload succeeded: testfile_28.pdf"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"Moved testfile_28.pdf → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"---- Processing file: testfile_29.docx (242688 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:47","level":"INFO","message":"Upload token: 2381f7c0-507c-420e-b3d3-ea2e054f86e5"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Upload succeeded: testfile_29.docx"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Moved testfile_29.docx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"---- Processing file: testfile_30.xlsx (443392 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Upload token: a4c6f02c-1093-403d-b8ae-dea03001a17b"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Upload succeeded: testfile_30.xlsx"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Moved testfile_30.xlsx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"---- Processing file: testfile_31.pptx (260096 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Upload token: b01fb17c-7489-485d-bbd2-42f463ccc9cb"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Upload succeeded: testfile_31.pptx"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"Moved testfile_31.pptx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:48","level":"INFO","message":"---- Processing file: testfile_32.jpg (382976 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:49","level":"INFO","message":"Upload token: 957a9fe2-3bfa-4826-952c-aa926bb088c6"}
+{"timestamp":"2025-06-06T12:23:49","level":"INFO","message":"Upload succeeded: testfile_32.jpg"}
+{"timestamp":"2025-06-06T12:23:49","level":"INFO","message":"Moved testfile_32.jpg → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:49","level":"INFO","message":"---- Processing file: testfile_33.png (13312 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:49","level":"INFO","message":"Upload token: 6e57f067-ed7d-4a91-aade-f4e4460e1bf2"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"Upload succeeded: testfile_33.png"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"Moved testfile_33.png → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"---- Processing file: testfile_34.gif (54272 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"Upload token: 50295440-ea95-4659-9e30-a6f2bcca04f3"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"Upload succeeded: testfile_34.gif"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"Moved testfile_34.gif → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:50","level":"INFO","message":"---- Processing file: testfile_35.bmp (117760 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:51","level":"INFO","message":"Upload token: f1e13a8b-23cb-4cd3-880a-05fba236ff1a"}
+{"timestamp":"2025-06-06T12:23:51","level":"INFO","message":"Upload succeeded: testfile_35.bmp"}
+{"timestamp":"2025-06-06T12:23:51","level":"INFO","message":"Moved testfile_35.bmp → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:51","level":"INFO","message":"---- Processing file: testfile_36.zip (377856 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:51","level":"INFO","message":"Upload token: 315186c7-5c84-44c9-8902-e14ead5745a4"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"Upload succeeded: testfile_36.zip"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"Moved testfile_36.zip → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"---- Processing file: testfile_37.tar (239616 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"Upload token: c5e768ca-af2e-4a14-a3f8-2fb3800f61a5"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"Upload succeeded: testfile_37.tar"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"Moved testfile_37.tar → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"---- Processing file: testfile_38.mp3 (203776 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:52","level":"INFO","message":"Upload token: b9a341d1-696b-4f06-8ca5-156be5a06b1e"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Upload succeeded: testfile_38.mp3"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Moved testfile_38.mp3 → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"---- Processing file: testfile_39.mp4 (211968 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Upload token: 63139146-306b-4210-ab56-75d6670733ad"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Upload succeeded: testfile_39.mp4"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Moved testfile_39.mp4 → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"---- Processing file: testfile_40.avi (258048 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Upload token: 451c17ed-d362-4487-9b50-bac04137fc28"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Upload succeeded: testfile_40.avi"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"Moved testfile_40.avi → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:53","level":"INFO","message":"---- Processing file: testfile_41.txt (436224 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:54","level":"INFO","message":"Upload token: 6ee4c845-353d-43c5-973d-1187dfd9d1ca"}
+{"timestamp":"2025-06-06T12:23:54","level":"INFO","message":"Upload succeeded: testfile_41.txt"}
+{"timestamp":"2025-06-06T12:23:54","level":"INFO","message":"Moved testfile_41.txt → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:54","level":"INFO","message":"---- Processing file: testfile_42.csv (478208 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:54","level":"INFO","message":"Upload token: c77594ce-25bc-4449-b4eb-32338788bad5"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"Upload succeeded: testfile_42.csv"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"Moved testfile_42.csv → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"---- Processing file: testfile_43.json (227328 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"Upload token: 4a4cc8d9-207d-4ae8-a452-18abf94b92e3"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"Upload succeeded: testfile_43.json"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"Moved testfile_43.json → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"---- Processing file: testfile_44.xml (442368 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:55","level":"INFO","message":"Upload token: 0ec9a461-cafe-4a9a-8747-edb4a43696aa"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"Upload succeeded: testfile_44.xml"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"Moved testfile_44.xml → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"---- Processing file: testfile_45.log (351232 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"Upload token: 79eda8a0-927c-4970-b6f6-60c51f50224c"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"Upload succeeded: testfile_45.log"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"Moved testfile_45.log → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"---- Processing file: testfile_46.html (506880 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:56","level":"INFO","message":"Upload token: e7a4e1d8-86ab-4167-ad20-581f9f981477"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"Upload succeeded: testfile_46.html"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"Moved testfile_46.html → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"---- Processing file: testfile_47.md (248832 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"Upload token: 69375c8a-2779-42e3-b80c-c151c160170c"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"Upload succeeded: testfile_47.md"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"Moved testfile_47.md → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"---- Processing file: testfile_48.pdf (362496 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:57","level":"INFO","message":"Upload token: 75b47f21-ba52-45be-a910-a9742508767b"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Upload succeeded: testfile_48.pdf"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Moved testfile_48.pdf → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"---- Processing file: testfile_49.docx (479232 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Upload token: 8c1b14f8-59eb-4ce5-b2c6-e95530ec8cd4"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Upload succeeded: testfile_49.docx"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Moved testfile_49.docx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"---- Processing file: testfile_50.xlsx (393216 bytes) ----"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Upload token: 44976d09-46e0-4300-ae73-faee2ff72eff"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Upload succeeded: testfile_50.xlsx"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"Moved testfile_50.xlsx → C:\\Users\\OliverDetjen\\Downloads\\Uploads\\uploaded"}
+{"timestamp":"2025-06-06T12:23:58","level":"INFO","message":"=== SCRIPT END ==="}
+2025-06-06T12:23:58 [INFO] Success on attempt #1
